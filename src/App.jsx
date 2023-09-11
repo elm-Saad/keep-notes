@@ -1,7 +1,7 @@
 import React from "react"
 import Sidebar from "./components/Sidebar"
 import Editor from "./components/Editor"
-import Split from "./components/react-split/dist/react-split"
+import Split from "./components/react-split/dist/react-split.js"
 //Cloud Firestore functions 
 import {
     onSnapshot,
