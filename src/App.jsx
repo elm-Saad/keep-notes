@@ -1,7 +1,7 @@
 import React from "react"
 import Sidebar from "./components/Sidebar"
 import Editor from "./components/Editor"
-import Split from "./components/react-split/dist/react-split.jsx"
+import Split from "react-split"
 //Cloud Firestore functions 
 import {
     onSnapshot,
@@ -9,7 +9,7 @@ import {
     doc,
     deleteDoc,
     setDoc
-} from "./components/firebase/firestore"
+} from "firebase/firestore"
 
 import { notesCollection, dtabase } from "./firebase"
 

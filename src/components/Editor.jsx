@@ -1,6 +1,6 @@
 import React from "react"
-import ReactMde from "./react-mde/lib/js/components/ReactMde"
-import Showdown from "./showdown/dist/showdown"
+import ReactMde from "react-mde"
+import Showdown from "showdown"
 
 export default function Editor({ tempNoteText, setTempNoteText }) {
     const [selectedTab, setSelectedTab] = React.useState("write")
